@@ -293,8 +293,9 @@ img {
 }
 .social-link-footer,
 .social-link {
-  display: block;
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
