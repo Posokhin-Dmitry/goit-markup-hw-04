@@ -213,7 +213,10 @@ img {
 }
 
 .features-thumb {
-  padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   margin-bottom: 30px;
   background-color: var(--background-icon-color);
   border-radius: 4px;
@@ -322,8 +325,11 @@ img {
 }
 
 .client-link {
+  width: 170px;
+  height: 92px;
   display: flex;
-  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -382,22 +388,16 @@ img {
 .project-cards {
   padding: 0;
   margin: 0;
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.project-cards .card-item {
+.card-item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-}
-
-.card-item:hover,
-.card-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .link-card {
@@ -420,6 +420,11 @@ img {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   padding: 20px 24px;
+}
+
+.card-item:focus,
+.card-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .filter-title {
