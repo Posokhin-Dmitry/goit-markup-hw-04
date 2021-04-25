@@ -401,6 +401,7 @@ img {
 }
 
 .link-card {
+  display: block;
   text-decoration: none;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -422,8 +423,8 @@ img {
   padding: 20px 24px;
 }
 
-.card-item:focus,
-.card-item:hover {
+.link-card:focus,
+.link-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
